@@ -1,3 +1,3 @@
-import st.map
-qrcode.make('qqq').show()
+import qrcode
+qrcode.make('aaa')
 
