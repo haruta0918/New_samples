@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 df = pd.DataFrame(
-    np.random.randn(10, 2) / [400, 400] + [34.712531, 137.6887006],
+    np.random.randn(10, 2) / [10, 10] + [34.712531, 137.6887006],
     columns=["lat", "lon"],
 )
 st.map(df)
