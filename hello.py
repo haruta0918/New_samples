@@ -11,4 +11,4 @@ df = (
     }
 )
 
-st.map(df, latitude="col1", longitude="col2", size="col3", color="#0044ff")
+st.map( latitude="col1", longitude="col2", size="col3", color="#0044ff")
