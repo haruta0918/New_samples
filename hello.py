@@ -6,5 +6,5 @@ df = pd.DataFrame(
     np.random.randn(200, 2) / [350, 350] + [34.712531, 137.6887006],
     columns=["lat", "lon"],
 )
-st.map(latitude=34.712531,longitude=137.6887006, size=5, color="#0044ff")
+st.map(latitude=34.712531,longitude=137.6887006, size=10, color="#0044ff")
 st.map(df)
