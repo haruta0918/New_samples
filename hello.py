@@ -2,11 +2,12 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-df = pd.DataFrame(
+df = (
     {
-        "col1":   200 + 34.715265,
-        "col2":  200 + 137.6885,
-        "col3": 11
+        "col1":34.715265,
+        "col2":137.6885,
+        "col3":11,
+
     }
 )
 
