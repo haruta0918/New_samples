@@ -3,8 +3,13 @@ import pandas as pd
 import numpy as np
 
 df = pd.DataFrame(
-    np.random.randn(200, 2) / [350, 350] + [34.712531, 137.6887006],
-    columns=["lat", "lon"],
+    {
+        "col1":   200 + 34.715265,
+        "col2":  200 + 137.6885,
+        "col3": 11,
+    }
 )
-st.map(latitude=34.712531,longitude=137.6887006, size=10, color="#0044ff",zoom=11)
-st.map(df)
+
+st.map(df, latitude="col1", longitude="col2", size="col3", color="#0044ff")
+st.map(df, size=10, color="#0044ff")
+st.map(df, size=10, color="#0044ff")
