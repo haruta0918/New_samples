@@ -2,13 +2,10 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-df = (
-    {
-        "col1":34.715265,
-        "col2":137.6885,
-        "col3":11,
+d = [
+    {"LAT": 34.715265, "LON": 137.6885, "SIZE": 1, "COLOR": [0, 0, 255, 100]},
+    {"LAT": 34.716265, "LON": 137.6885, "SIZE": 1, "COLOR": [0, 255, 0, 100]},
+    {"LAT": 34.717265, "LON": 137.6885, "SIZE": 1, "COLOR": [255, 0, 0, 100]},
+]
 
-    }
-)
-
-st.map( latitude="col1", longitude="col2", size="col3", color="#0044ff")
+st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
