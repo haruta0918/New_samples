@@ -1,3 +1,5 @@
+
+
 import streamlit as st
 import pandas as pd
 
@@ -9,8 +11,8 @@ st.title('JPG画像と関連位置情報の表示')
 # ご自身のJPGファイルのパスを指定してください。
 # 例: 'data/my_travel_photo.jpg'
 try:
-    st.image("path/to/your/image.jpg", caption="旅行で撮った写真", use_column_width=True)
-    st.caption("※ここにあなたのJPG画像のパスを指定してください。")
+    st.image("C:\Users\harut\Desktop\写真\Takeout\Google フォト\4月15日/20250415_165815jpg", caption="旅行で撮った写真", use_column_width=True)
+    st.caption("C:\Users\harut\Desktop\写真\Takeout\Google フォト\4月15日/20250415_165815jpg")
 except FileNotFoundError:
     st.error("指定されたJPGファイルが見つかりません。パスを確認してください。")
 
