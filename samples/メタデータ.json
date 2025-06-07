@@ -1,0 +1,19 @@
+{
+  "title": "佐鳴湖ゴミ研究の",
+  "description": "",
+  "access": "protected",
+  "date": {
+    "timestamp": "1745751480",
+    "formatted": "2025/04/27 10:58:00 UTC"
+  },
+  "enrichments": [{
+    "locationEnrichment": {
+      "location": [{
+        "name": "浜松市",
+        "description": "静岡県",
+        "latitudeE7": 347102752,
+        "longitudeE7": 1377274159
+      }]
+    }
+  }]
+}

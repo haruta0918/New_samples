@@ -1,0 +1,39 @@
+{
+  "title": "20250418_171426.jpg",
+  "description": "",
+  "imageViews": "2",
+  "creationTime": {
+    "timestamp": "1745751486",
+    "formatted": "2025/04/27 10:58:06 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1744964067",
+    "formatted": "2025/04/18 8:14:27 UTC"
+  },
+  "geoData": {
+    "latitude": 34.717445399999995,
+    "longitude": 137.697113,
+    "altitude": 47.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.717445399999995,
+    "longitude": 137.697113,
+    "altitude": 47.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNAeTYCs69W8ZTrjTLrhNLGahfmOAtxhXHAhNb0",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  },
+  "appSource": {
+    "androidPackageName": "com.sec.android.app.camera"
+  }
+}

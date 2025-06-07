@@ -1,15 +1,17 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+import json
+json_open = open('samples/20250415_165815.jpg.supplemental-metadata.json', 'r')
+json_load = json.load(json_open)
+json_open1 = open('samples/20250415_165843.jpg.supplemental-metadata.json', 'r')
+json_load1 = json.load(json_open)
+
+
 
 d = [
-    {"LAT": 34.71946333, "LON": 137.69348144, "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
-    {"LAT": 34.71929167, "LON": 137.69297789, "SIZE": 0.5, "COLOR": [0, 255, 0, 100]},
-    {"LAT": 34.71917342, "LON": 137.69277953, "SIZE": 0.5, "COLOR": [255, 0, 0, 100]},
-    {"LAT": 34.71593475, "LON": 137.69035339, "SIZE": 0.5, "COLOR": [255, 0, 0, 100]},
-    {"LAT": 34.70348356, "LON": 137.68765258, "SIZE": 0.5, "COLOR": [255, 0, 0, 100]},
-    {"LAT": 34.71092606, "LON": 137.69403075, "SIZE": 0.5, "COLOR": [255, 0, 0, 100]},
-    {"LAT": 34.71250150, "LON": 137.69499206, "SIZE": 0.5, "COLOR": [255, 0, 0, 100]},
+    {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
+    {"LAT":json_load1['geoData']['latitude'], "LON":json_load1['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
 ]
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
