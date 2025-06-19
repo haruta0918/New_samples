@@ -9,4 +9,3 @@ d = {
     {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
     }
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
-print(d)
