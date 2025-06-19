@@ -13,7 +13,7 @@ json_open = open('samples/20250427_152001.jpg.supplemental-metadata.json', 'r')
 json_load = json.load(json_open)
 
 d.append = [
-        {"LAT": 37.0522, "LON": -115.2437, "SIZE": 0.6, "COLOR": [0, 255, 0, 100]},
+        {"LAT": 35.690395, "LON": -139.7661275, "SIZE": 0.6, "COLOR": [0, 255, 0, 100]},
     ]
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
