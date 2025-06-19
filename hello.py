@@ -15,5 +15,6 @@ d = {
 new_point = ([
     {"LAT": 34.704852848835955, "LON": 137.68991679239386, "SIZE": 0.5, "COLOR": [0, 255, 0, 100]},
 ])
+d["points"].append(new_point)
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
 print(d)
