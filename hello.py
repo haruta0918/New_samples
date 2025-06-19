@@ -12,7 +12,7 @@ d = [
 json_open = open('samples/20250427_152001.jpg.supplemental-metadata.json', 'r')
 json_load = json.load(json_open)
 
-d.append = [
+d.extend = [
         {"LAT": 35.690395, "LON": -139.7661275, "SIZE": 0.6, "COLOR": [0, 255, 0, 100]},
     ]
 
