@@ -17,4 +17,4 @@ new_point = {
     "SIZE": 0.5,
     "COLOR": [0, 255, 0, 100]
 }
-st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
+st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)(new_point,latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15),
