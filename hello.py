@@ -11,8 +11,3 @@ d = [
         {"LAT":34.7047046, "LON":137.6896061, "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},   
     ]
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
-
-json_open=open('samples/20250427_152001.jpg.supplemental-metadata.json', 'r') 
-json_load = json.load(json_open)
-
-st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)(d, latitude="LAT1", longitude="LON1", size="SIZE1", color="COLOR1", zoom=15)
