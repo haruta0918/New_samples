@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import json
 
-with open('samples/file1.json', 'r', encoding='utf-8') as f1:
+with open('samples/20250427_152756.jpg.supplemental-metadata.json', 'r', encoding='utf-8') as f1:
     data1 = json.load(f1)
 
 
@@ -12,7 +12,7 @@ d = [
         {"LAT":f1['geoData']['latitude'], "LON":f1['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
     ]
 # 1つの辞書として追加
-with open('samples/file2.json', 'r', encoding='utf-8') as f2:
+with open('samples/20250427_150440.jpg.supplemental-metadata.json', 'r', encoding='utf-8') as f2:
     data2 = json.load(f2)
 lat = f2['geoData']['latitude']
 lon = f2['geoData']['longitude']
