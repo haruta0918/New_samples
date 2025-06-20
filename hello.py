@@ -2,17 +2,20 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import json
+
+with open('samples/file1.json', 'r', encoding='utf-8') as f1:
+    data1 = json.load(f1)
+
+
     
-json_open = open('samples/20250415_165815.jpg.supplemental-metadata.json', 'r')
-json_load = json.load(json_open)
 d = [
-        {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
+        {"LAT":f1['geoData']['latitude'], "LON":f1['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
     ]
 # 1つの辞書として追加
-json_open1 = open('sample/20250415_170700.jpg.supplemental-metadata.json', 'r')
-json_load1 = json.load(json_open1)
-lat = json_load1['geoData']['latitude']
-lon = json_load1['geoData']['longitude']
+with open('samples/file2.json', 'r', encoding='utf-8') as f2:
+    data2 = json.load(f2)
+lat = f2['geoData']['latitude']
+lon = f2['geoData']['longitude']
 new_point = {
     "LAT": lat,
     "LON": lon,
