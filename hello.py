@@ -10,7 +10,5 @@ d = [
         {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},
         {"LAT":34.7047046, "LON":137.6896061, "SIZE": 0.5, "COLOR": [0, 0, 255, 100]},   
     ]
-st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
-aaaa={json_load['geoData']['latitude']}
-d.append({"LAT":34.7047046, "LON":137.6896061, "SIZE": 0.5, "COLOR": [0, 0, 255, 100]})       
+d.append({"LAT":34.7103722, "LON":137.6857714, "SIZE": 0.5, "COLOR": [0, 0, 255, 100]})       
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
