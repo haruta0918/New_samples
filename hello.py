@@ -18,7 +18,7 @@ e='.jpg.supplemental-metadata.json'
 folder_path = 'samples'
 a=0
 # フォルダ内の .json ファイルを探してループ
-for starf in range(4):
+for starf in range(6):
     strc=str(c)
     f=b+strc+e
     strf=str(f)
