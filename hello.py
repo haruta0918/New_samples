@@ -4,28 +4,38 @@ import numpy as np
 import json
 import os
 
-json_open=open('samples/20250427_152756.jpg.supplemental-metadata.json', 'r') 
+import os
+
+folder_path = 'samples'
+
+# .jsonファイルを取得して並び替え（オプション）
+json_files = [f for f in os.listdir(folder_path) if f.endswith('.json')]
+json_files.sort()  # ソートすると見やすい順に並ぶ
+
+folder_path2=folder_path+'/'
+a2=0
+a=json_files[a2]
+print(a)
+stra=str(a)
+c=folder_path2+stra
+json_open=open(c, 'r',encoding='utf-8') 
 json_load = json.load(json_open)
-aaa=10000
 d = [
         {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]}, 
     ]
-
-b='samples/'
-c=20251
-strc=str(c)
-e='.jpg.supplemental-metadata.json'
 folder_path = 'samples'
-a=0
 # フォルダ内の .json ファイルを探してループ
-for starf in range(6):
-    strc=str(c)
-    f=b+strc+e
-    strf=str(f)
-    a+=1
-    json_open=open(strf, 'r') 
-    json_load = json.load(json_open)
-    d.append({"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]})       
-    c+=1
+for filename in os.listdir(folder_path):
+    if filename.endswith('.json'):
+        a2+=1
+        a=json_files[a2]
+        stra=str(a)
+        c=folder_path2+stra
+        file_path = os.path.join(folder_path, filename)
+        json_open=open(c, 'r',encoding='utf-8') 
+        json_load = json.load(json_open)
+        print(d)
+        d.append({"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]})       
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
 print(d)
+

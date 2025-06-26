@@ -10,7 +10,8 @@ aaa=10000
 d = [
         {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 100]}, 
     ]
-
+print('aaa')
+print(json_open)
 
 folder_path = 'samples'
 a=0
