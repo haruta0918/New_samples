@@ -30,7 +30,7 @@ for filename in os.listdir(folder_path):
             json_open=open(c, 'r',encoding='utf-8') 
             json_load = json.load(json_open)
             d = [
-                    {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 10]}, 
+                    {"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": json_load['color']}, 
                 ]
         else:
             print("2回目以降")
@@ -41,7 +41,7 @@ for filename in os.listdir(folder_path):
             file_path = os.path.join(folder_path, filename)
             json_open=open(c, 'r',encoding='utf-8') 
             json_load = json.load(json_open)
-            d.append({"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": [0, 0, 255, 10]})
+            d.append({"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 0.5, "COLOR": json_load['color']})
         t+=1
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
