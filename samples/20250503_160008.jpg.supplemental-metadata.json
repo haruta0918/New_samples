@@ -1,0 +1,37 @@
+{
+  "title": "20250503_160008.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1746255609",
+    "formatted": "2025/05/03 7:00:09 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7118797,
+    "longitude": 137.6872558,
+    "altitude": 89.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7118797,
+    "longitude": 137.6872558,
+    "altitude": 89.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMS9K0benXNF7eQhvHAOSxCKgui-V2oGr1EAV1g",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
