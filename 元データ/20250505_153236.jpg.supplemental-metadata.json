@@ -1,0 +1,37 @@
+{
+  "title": "20250505_153236.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1746426757",
+    "formatted": "2025/05/05 6:32:37 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7098274,
+    "longitude": 137.68539429999998,
+    "altitude": 70.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7098274,
+    "longitude": 137.68539429999998,
+    "altitude": 70.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipN64ax4cVK-a0cIXnUQ_hxVXt7SXEmjnLa8RtjM",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

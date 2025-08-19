@@ -1,0 +1,37 @@
+{
+  "title": "20250620_173850.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1750408731",
+    "formatted": "2025/06/20 8:38:51 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7192917,
+    "longitude": 137.69305420000003,
+    "altitude": 43.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7192917,
+    "longitude": 137.69305420000003,
+    "altitude": 43.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNEqHSQo8oRkHFn1_wth9iI72Dg95hAnyaEvbtg",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

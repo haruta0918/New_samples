@@ -1,0 +1,37 @@
+{
+  "title": "20250617_173934.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1750149575",
+    "formatted": "2025/06/17 8:39:35 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7125473,
+    "longitude": 137.68838499999998,
+    "altitude": 72.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7125473,
+    "longitude": 137.68838499999998,
+    "altitude": 72.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipOmJ7-x9WQRv4b-c6YQnLtFTHhflsouNgvNq0OQ",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

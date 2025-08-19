@@ -1,0 +1,37 @@
+{
+  "title": "20250426_140009.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "2",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1745643609",
+    "formatted": "2025/04/26 5:00:09 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7076616,
+    "longitude": 137.6920683,
+    "altitude": 90.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7076616,
+    "longitude": 137.6920683,
+    "altitude": 90.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNbGy4BjZENRppGfBnCz2p9td7jOKp008vSZt6G",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "title": "20250518_133310.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1747542790",
+    "formatted": "2025/05/18 4:33:10 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7174377,
+    "longitude": 137.6908264,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7174377,
+    "longitude": 137.6908264,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNKVmmtnZ8l6e8qFVhRNKBGYEDVSFMA0kxvUXC4",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

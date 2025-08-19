@@ -1,0 +1,37 @@
+{
+  "title": "20250604_163726.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "0",
+  "creationTime": {
+    "timestamp": "1753102440",
+    "formatted": "2025/07/21 12:54:00 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1749022646",
+    "formatted": "2025/06/04 7:37:26 UTC"
+  },
+  "geoData": {
+    "latitude": 34.7123413,
+    "longitude": 137.6880035,
+    "altitude": 49.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.7123413,
+    "longitude": 137.6880035,
+    "altitude": 49.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipP8dqcepwZQ5szXkgf-X19xIZU-R5sx3VH_omIa",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

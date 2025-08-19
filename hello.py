@@ -6,7 +6,7 @@ import os
 
 import os
 
-folder_path = 'samples'
+folder_path = 'いじる用'
 o=0
 t=0
 
@@ -45,5 +45,6 @@ for filename in os.listdir(folder_path):
         t+=1
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
+
 print(d)
 

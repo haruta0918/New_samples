@@ -1,0 +1,37 @@
+{
+  "title": "20250415_170722.jpg",
+   "description": "",
+"color": [0, 0, 255, 10],
+  "imageViews": "3",
+  "creationTime": {
+    "timestamp": "1753102446",
+    "formatted": "2025/07/21 12:54:06 UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1744704442",
+    "formatted": "2025/04/15 8:07:22 UTC"
+  },
+  "geoData": {
+    "latitude": 34.71710160000001,
+    "longitude": 137.69078489999998,
+    "altitude": 42.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 34.71710160000001,
+    "longitude": 137.69078489999998,
+    "altitude": 42.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMkrcq3p4TjU22ZAc2c1LcvGIl4TU2Ck1ixm4jm",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
