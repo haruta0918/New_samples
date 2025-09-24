@@ -46,5 +46,4 @@ for filename in os.listdir(folder_path):
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
 
-print(d)
-
+st.link_button("写真はこちらから", "https://youtube.com/")
