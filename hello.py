@@ -45,4 +45,4 @@ for filename in os.listdir(folder_path):
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
 
-st.link_button("写真表示", "https://app-image-coordinates-dyykxkhkmhmybtkifty5mo.streamlit.app/")
+st.link_button("写真表示", "https://app-image-coordinates-h4ke7wznbe36nwzshvcd6b.streamlit.app/")
