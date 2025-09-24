@@ -13,8 +13,6 @@ t=0
 # フォルダ内の .json ファイルを探してループ
 for filename in os.listdir(folder_path):
     if filename.endswith('.json'):
-        o+=1
-        print(o)
         if t==0:
             print("1回目")
             # .jsonファイルを取得して並び替え（オプション）
@@ -43,7 +41,8 @@ for filename in os.listdir(folder_path):
             json_load = json.load(json_open)
             d.append({"LAT":json_load['geoData']['latitude'], "LON":json_load['geoData']['longitude'], "SIZE": 2, "COLOR": json_load['color']})
         t+=1
+        print(t)
 
 st.map(d, latitude="LAT", longitude="LON", size="SIZE", color="COLOR", zoom=15)
 
-st.link_button("写真はこちらから", "https://youtube.com/")
+st.link_button("写真表示", "https://app-image-coordinates-dyykxkhkmhmybtkifty5mo.streamlit.app/")
